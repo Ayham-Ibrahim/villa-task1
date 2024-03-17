@@ -1,0 +1,21 @@
+.contact-section {
+    margin-top: 120px;
+    background-image: url(../../assets/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0px 250px 0px;
+    position: relative;
+}
+
+.contact-section .section-heading .section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.contact-section .section-heading .section-header .section-title {
+    width: 100% !important;
+    color: white;
+}

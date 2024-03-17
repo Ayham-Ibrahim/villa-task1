@@ -1,0 +1,49 @@
+.contact-page {
+    margin-top: 120px;
+}
+.contact-page p {
+    margin-bottom: 43px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+.contact-page .ay-card1 {
+    margin-bottom: 30px;
+}
+
+.contact-page .ay-card1,
+.contact-page .ay-card2 {
+    min-width: 360px;
+    display: inline-block;
+}
+.contact-page .section-header {
+    margin-bottom: 40px;
+    margin-right: 280px;
+}
+
+.contact-page .map {
+    margin-top: 100px;
+}
+
+.contact-page .map iframe {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 992px) {
+    .contact-page .section-header {
+        margin-right: 0px !important;
+    }
+    .contact-page .my-form {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-page .section-header {
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,15 @@
+.properties-section {
+    margin-top: 120px;
+}
+
+.properties-section .container .header {
+    text-align: center;
+}
+
+.properties-section .container .header .section-header {
+    margin-bottom: 70px;
+}
+
+.properties-section .container .header .section-header .section-title {
+    width: 100%;
+}

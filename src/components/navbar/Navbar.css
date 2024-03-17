@@ -1,0 +1,97 @@
+.navbar {
+    height: 100px;
+    background-color: white !important;
+
+}
+@media (max-width:992px) {
+    .navbar .container {
+            margin-top: -10px;
+    }
+}
+
+
+.logo h1 {
+    line-height: 100px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.pages {
+    justify-content: right;
+}
+.pages ul {
+    transition: all 0.3s ease 0s;
+}
+
+.pages .nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 100px;
+}
+.pages .nav li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    transition: all 0.4s ease 0s;
+    border: transparent;
+    letter-spacing: .25px;
+    text-decoration: none;
+}
+
+.pages .nav li a.active {
+    color: var(--main-color);
+}
+
+.pages .nav li a:hover {
+    color: var(--main-color);
+}
+
+.pages .nav li:last-child a {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 20px;
+    padding-left: 0px;
+}
+.pages .nav li:last-child a i {
+    background-color: #f35525;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-left: -1px;
+}
+
+@media (max-width: 1200px) {
+    .pages .nav li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (max-width: 992px) {
+    .pages .nav  {
+        background-color: #fff;
+        display: block;
+        margin-top: -28px;
+        padding: 19px;
+        text-align: center;
+    }
+    .pages .nav li:last-child a {
+        display: none;
+    }
+}
+

@@ -1,0 +1,29 @@
+.tab-item {
+    padding-right: 0px;
+    border-right: none;
+    margin-left: 20px;
+}
+.tab-item button {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #1e1e1e !important;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 25px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.tab-item button:hover {
+    color:#fff;
+    isolation: isolate;
+}
+
+.tab-item .active {
+    background-color: #f35525 !important;
+    color: #fff;
+}
+

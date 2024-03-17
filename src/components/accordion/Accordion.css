@@ -1,0 +1,30 @@
+.accordion{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+.accordion-button {
+    font-size: 17px;
+    font-weight: 500;   
+}
+.accordion-item,
+.accordion-button {
+    background-color: #fafafa;
+
+}
+
+
+.accordion-button:focus {
+    outline: none !important;
+    background-color:#fafafa !important;
+    box-shadow: none;
+    border-bottom: 1px #e8ebed solid;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--main-color);
+}
+
+.accordion-button::after {
+    display: none;
+}

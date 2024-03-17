@@ -1,0 +1,45 @@
+.single-property {
+    margin-top: 120px;
+}
+
+.single-property .property-image img {
+    width: 100%;
+    overflow: hidden;
+    float: none;
+}
+
+.single-property .property-info span.category {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.single-property .property-info h4 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.single-property .property-info p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+
+.single-property .info-table {
+    margin-left: 60px;
+}
+
+@media (max-width: 992px) {
+    .single-property .info-table {
+        margin-left: 0px;
+        margin-top: 45px;
+    }
+}
